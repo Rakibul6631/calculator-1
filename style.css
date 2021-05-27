@@ -1,0 +1,85 @@
+body{
+    background-color: lightblue;
+    margin: 10px;
+}
+.calc-container{
+    margin: auto;
+    max-width: 280px;
+    width: 100%;
+    border: 2px solid pink;
+    padding: 10px;
+}
+.screen{
+    width: 98%;
+    height: 40px;
+    max-width: 98%;
+    background-color: #eeefa9;
+    color: #000000;
+    padding: 30px;
+    font-size: 20px;
+    border: 2px outset;
+    margin: 0;
+    padding: 10px 3px;
+    font-size: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: rgb(78, 78, 78);
+}
+.buttons{
+    display: inline-block;
+    max-width: 390px;
+    height: 40px;
+    width: 230px;
+}
+.buttons li{
+    margin: 2px;
+    padding: 10px;
+    display: inline-block;
+    margin: auto;
+}
+.buttons button{
+    background-color: gray;
+    height: 30px;
+    width: 30px;
+    margin: auto;
+    color: orange;
+    border: 1px outset rgb(196, 33, 211);
+    text-align: center;
+}
+.buttons button:hover{
+    background-color: gray;
+    height: 30px;
+    width: 30px;
+    margin: auto;
+    color: orange;
+    border: 2px inset rgb(196, 33, 211);
+    text-align: center;
+    transition: 0.6s ease-in-out;
+}
+#equal{
+    background-color: rgb(118, 223, 150);
+    height: 30px;
+    width: 40%;
+    margin: auto;
+    text-align: center;
+    color: orange;
+}
+#up, #DOWN{
+    background-color: rgb(118, 223, 150);
+    height: 30px;
+    width: 2cm;
+    margin: auto;
+    text-align: center;
+    color: orange;
+}
+.message{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 20px;
+}
+.title{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: oblique;
+    color: gray;
+    font-size: 16px;
+    text-align: center;
+    text-decoration: underline;
+}
